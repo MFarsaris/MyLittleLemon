@@ -12,7 +12,7 @@ export default function Footer() {
             <img height="200px" src={footerLogo} alt="footerLogo" class="footer-image"></img>
             <div style={{ display: 'inline-block', verticalAlign: 'top', marginLeft: '20px' }}>
                 <h2 style={{ color: '#495E57', fontWeight: 'bold', marginBottom: '10px'}}>Doormat Navigation</h2>
-                <ul style={{ listStyleType: 'none', padding: '0' }}>
+                <ul style={{ listStyleType: 'none', padding: '0', TextDecoration: 'none' }}>
                     <li><a href= "/" >Home</a></li>
                     <li><a href= "/About">About Us</a></li>
                     <li><a href= "/Menu">Menu</a></li>
