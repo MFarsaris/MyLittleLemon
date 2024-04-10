@@ -1,8 +1,11 @@
+import "./App.css"
 import Header from "./header";
 import Nav from "./nav";
-import Main from "./main";
+import Hero from "./hero";
+import Specials from "./specials";
 import Footer from "./footer";
-import "./App.css"
+import CustomersSay from "./CustomersSay";
+import Chicago from "./Chicago";
 
 function App() {
 
@@ -10,7 +13,10 @@ function App() {
     <>
     <Header />
     <Nav />
-    <Main />
+    <Hero />
+    <Specials />
+    <CustomersSay />
+    <Chicago />
     <Footer />
     </>
   )

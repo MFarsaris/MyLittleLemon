@@ -144,10 +144,119 @@ article {
 
 article p {
   font-size: 15px;
-  max-width: 160px;
+  width: auto;
+  color: #495E57;
 }
 
 article img {
   width: 100%;
-  height:auto;
+  height: 200px;;
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+article a:hover {
+  background-color: #495E57;
+  color: white;
+  border-radius: 5px;
+}
+
+.articlenameprice {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+
+.orderdelivery a {
+  font-weight: 600;
+}
+
+.orderdelivery img {
+  width: 100px;
+  height: 20px;
+}
+
+.testimonialsbackground {
+  background-color: lightgrey;
+}
+
+.testimonials-max-width {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.testimonials {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 80px;
+}
+
+.testimonials-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4,5fr);
+  grid-template-rows: repeat(1, 500px);
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.grid-pic-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.grid-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Chicago */
+
+.chicago-container {
+  margin: auto;
+  padding: 20px;
+  max-width: 950px;
+}
+
+.chicago-text {
+  flex: auto;
+  margin-bottom: 20px;
+}
+
+.chicago-text p {
+  max-width: 500px;
+  text-align: justify;
+}
+
+.chicago-image{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+.chicago-image img {
+  width: 30%;
+  height: 350px;;
 }

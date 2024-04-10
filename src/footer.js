@@ -1,3 +1,4 @@
+import "./App.css";
 import footerLogo from "./Image_Icons/Asset 20@4x.png"
 
 
