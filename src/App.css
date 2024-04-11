@@ -238,11 +238,18 @@ article a:hover {
   margin: auto;
   padding: 20px;
   max-width: 950px;
+  position: relative;
+}
+
+.chicago-section {
+  display: flex;
+  align-items: center;
 }
 
 .chicago-text {
-  flex: auto;
   margin-bottom: 20px;
+  margin-right: 20px;
+  flex: 1;
 }
 
 .chicago-text p {
@@ -250,13 +257,18 @@ article a:hover {
   text-align: justify;
 }
 
-.chicago-image{
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: auto;
+.chicago-section img {
+  width: 30%;
+  height: 350px;
+  position: absolute;
 }
 
-.chicago-image img {
-  width: 30%;
-  height: 350px;;
+.image1 {
+  right: 0;
+}
+
+.image2 {
+  right: -100px;
+  top: -40px;
+  z-index: +1;
 }
