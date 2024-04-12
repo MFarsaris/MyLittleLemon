@@ -24,7 +24,7 @@ font-size: 50px;
   max-width: 1200px;
 }
 
-.navbar img {
+.navbar-img{
   margin: auto;
 }
 
@@ -236,7 +236,7 @@ article a:hover {
 
 .chicago-container {
   margin: auto;
-  padding: 20px;
+  padding: 80px;
   max-width: 950px;
   position: relative;
 }
@@ -258,17 +258,21 @@ article a:hover {
 }
 
 .chicago-section img {
-  width: 30%;
+  width: 25%;
   height: 350px;
   position: absolute;
 }
 
 .image1 {
   right: 0;
+  bottom: 20px;
+  right: 200px;
 }
 
 .image2 {
-  right: -100px;
-  top: -40px;
+  right: 60px;
+  top: 10px;
   z-index: +1;
 }
+
+

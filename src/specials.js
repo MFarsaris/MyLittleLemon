@@ -3,6 +3,7 @@ import greeksalad from "./Image_Icons/greek salad.jpg";
 import lemondessert from "./Image_Icons/lemon dessert.jpg";
 import bruchetta from "./Image_Icons/bruchetta.svg";
 import scooterdelivery from "./Image_Icons/scooter-delivery.svg";
+import { Link } from "react-router-dom";
 
 
 export default function Specials() {
@@ -11,7 +12,9 @@ export default function Specials() {
         <main>
             <div className="specialsnavbar">
                 <h2 style={{fontSize: "30px"}}>Specials</h2>
-                <button className="specialsbutton">Online Menu</button>
+                <Link to="/Menu">
+                    <button className="specialsbutton">Online Menu</button>
+                </Link>
             </div>
                 <section>
                     <article>
