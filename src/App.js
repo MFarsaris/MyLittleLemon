@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import LittleLemonLogo from "./Image_Icons/Logo .svg";
 import Home from "./Home";
 import Order from "./Order";
-import Book from "./Book";
+import Book from "./BookingPage";
 import About from "./AboutUs";
 import Menu from "./Menu";
 import Login from "./Login";
@@ -22,7 +22,7 @@ function App() {
                 <li><Link to= "/" >Home</Link></li>
                 <li><Link to= "/About">About Us</Link></li>
                 <li><Link to= "/Menu">Menu</Link></li>
-                <li><Link to= "/Book">Reservations</Link></li>
+                <li><Link to= "/BookingPage">Reservations</Link></li>
                 <li><Link to= "/Order">Order Online</Link></li>
                 <li><Link to= "/Login">Login</Link></li>
             </ul>
