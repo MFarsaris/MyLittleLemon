@@ -1,8 +1,8 @@
 import "./App.css";
-import Donna from "./Image_Icons/Donna.jpg";
-import Michael from "./Image_Icons/michael.jpg";
-import Pedro from "./Image_Icons/pedro.jpg";
-import Alice from "./Image_Icons/alice.jpg";
+import Donna from "../Image_Icons/Donna.jpg";
+import Michael from "../Image_Icons/michael.jpg";
+import Pedro from "../Image_Icons/pedro.jpg";
+import Alice from "../Image_Icons/alice.jpg";
 
 export default function CustomersSay() {
 

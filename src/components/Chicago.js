@@ -1,6 +1,6 @@
 import "./App.css";
-import restaurantchefB from "./Image_Icons/restaurant chef B.jpg"
-import MarioandAdrianb from "./Image_Icons/Mario and Adrian b.jpg"
+import restaurantchefB from "../Image_Icons/restaurant chef B.jpg"
+import MarioandAdrianb from "../Image_Icons/Mario and Adrian b.jpg"
 
 export default function Chicago() {
 

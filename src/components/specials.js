@@ -1,8 +1,8 @@
 import "./App.css";
-import greeksalad from "./Image_Icons/greek salad.jpg";
-import lemondessert from "./Image_Icons/lemon dessert.jpg";
-import bruchetta from "./Image_Icons/bruchetta.svg";
-import scooterdelivery from "./Image_Icons/scooter-delivery.svg";
+import greeksalad from "../Image_Icons/greek salad.jpg";
+import lemondessert from "../Image_Icons/lemon dessert.jpg";
+import bruchetta from "../Image_Icons/bruchetta.svg";
+import scooterdelivery from "../Image_Icons/scooter-delivery.svg";
 import { Link } from "react-router-dom";
 
 

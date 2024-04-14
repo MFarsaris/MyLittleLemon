@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./App.css";
-import restauranfood from "./Image_Icons/restauranfood.jpg";
+import restauranfood from "../Image_Icons/restauranfood.jpg";
 
 export default function Hero() {
 

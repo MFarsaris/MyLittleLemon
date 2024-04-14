@@ -1,0 +1,278 @@
+* h1 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+}
+
+* h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+}
+
+/* nav */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.navbar-img{
+  margin: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin-right: auto;
+}
+
+.navbar ul li {
+  color: #495E57;
+  font-weight: 500;
+  margin-right: 20px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.navbar ul li:last-child {
+  margin-right: 5px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:hover{
+  background-color: #495E57;
+  color: white;
+  border-radius: 5px;
+}
+
+/* main */
+.herobackground {
+  background-color: #495E57;
+}
+.herocontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px;
+  max-width: 950px;
+}
+
+.herotext {
+  flex: auto;
+  margin-bottom: 20px;
+}
+
+.herotext p {
+  max-width: 500px;
+}
+
+.herotext button {
+  padding: 10px 20px;
+  background-color: #F4CE14;
+  border-radius: 10px;
+}
+
+.herotext button:hover {
+  background-color: #b99e13;
+  text-decoration: underline;
+}
+
+.heroimage {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+.heroimage img {
+  max-width: 100%;
+  max-height: 350px;
+}
+
+.specialsnavbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 950px;
+}
+
+.specialsbutton {
+  padding: 10px 20px;
+  background-color: #F4CE14;
+  border-radius: 10px;
+}
+
+.specialsbutton:hover {
+  background-color: #b99e13;
+  text-decoration: underline;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 950px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+article {
+  flex: 1;
+  background-color: lightgrey;
+  color: #000000;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+article p {
+  font-size: 15px;
+  width: auto;
+  color: #495E57;
+}
+
+article img {
+  width: 100%;
+  height: 200px;;
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+article a:hover {
+  background-color: #495E57;
+  color: white;
+  border-radius: 5px;
+}
+
+.articlenameprice {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+
+.orderdelivery a {
+  font-weight: 600;
+}
+
+.orderdelivery img {
+  width: 100px;
+  height: 20px;
+}
+
+.testimonialsbackground {
+  background-color: lightgrey;
+}
+
+.testimonials-max-width {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.testimonials {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 80px;
+}
+
+.testimonials-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4,5fr);
+  grid-template-rows: repeat(1, 500px);
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.grid-pic-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.grid-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Chicago */
+
+.chicago-container {
+  margin: auto;
+  padding: 80px;
+  max-width: 950px;
+  position: relative;
+}
+
+.chicago-section {
+  display: flex;
+  align-items: center;
+}
+
+.chicago-text {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.chicago-text p {
+  max-width: 500px;
+  text-align: justify;
+}
+
+.chicago-section img {
+  width: 25%;
+  height: 350px;
+  position: absolute;
+}
+
+.image1 {
+  right: 0;
+  bottom: 20px;
+  right: 200px;
+}
+
+.image2 {
+  right: 60px;
+  top: 10px;
+  z-index: +1;
+}
+
+
