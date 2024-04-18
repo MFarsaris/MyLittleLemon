@@ -276,3 +276,11 @@ article a:hover {
 }
 
 
+form {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 950px;
+}
