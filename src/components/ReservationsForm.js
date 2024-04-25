@@ -29,15 +29,15 @@ function ReservationsForm({availableTimes, dispatchAvailableTimes}) {
 
   return(
    <form onSubmit={handleSubmit}>
-    <label htmlfor="res-date">Choose Date</label>
+    <label htmlFor="res-date">Choose Date</label>
     <input type="date" id="res-date" name="date" value={formData.date} onChange={handleChange}></input>
-    <label htmlfor="rst-time">Choose time</label>
+    <label htmlFor="rst-time">Choose time</label>
     <select id="res-time" name="time" value={formData.time} onChange={handleChange}>
       {availableTimes.map((timeOption, index) => (
         <option key={index}>{timeOption}</option>
       ))};
     </select>
-    <label htmlfor="guests">Number of guests</label>
+    <label htmlFor="guests">Number of guests</label>
     <input type="number" placeholder="1" min={1} max={10} id="guests" name="guests" value={formData.guests} onChange={handleChange}></input>
     <label htmlFor="occasion">Occasion</label>
     <select id="occasion" name="occasion" value={formData.occasion} onChange={handleChange}>

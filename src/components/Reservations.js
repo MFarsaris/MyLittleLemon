@@ -1,6 +1,6 @@
 import "./App.css"
 import ReservationsForm from "./ReservationsForm";
-import React,{ useReducer} from "react";
+import React, {useReducer} from "react";
 
 
 export default function Book() {
