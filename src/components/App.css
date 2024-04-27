@@ -150,7 +150,7 @@ article p {
 
 article img {
   width: 100%;
-  height: 200px;;
+  height: 200px;
 }
 
 article a {
@@ -283,4 +283,16 @@ form {
   margin: auto;
   padding: 20px;
   max-width: 950px;
+}
+
+/* ConfirmedBooking */
+.confirmed-main {
+  height: calc(100vh - 216px);
+}
+
+
+/* menu */
+.menu-img {
+  width: 400px;
+  height: 300px;
 }

@@ -1,8 +1,9 @@
 import React, {useState} from "react";
 
-function ReservationsForm({availableTimes, dispatchAvailableTimes}) {
+
+function ReservationsForm({availableTimes, dispatchAvailableTimes, submitForm}) {
   const [formData, setFormData] = useState({
-    date: '', // date needs '' to be written correctly
+    date: '',
     time: availableTimes[0], //for the first availiable time
     guests: 1,
     occasion: "Birthday"
@@ -12,10 +13,6 @@ function ReservationsForm({availableTimes, dispatchAvailableTimes}) {
 
   const handleChange = (e) => {
     const {name, value} = e.target;
-    if(name === 'date'){
-      //dispatchAvailableTimes({type: 'SET_AVAILABLE_TIMES', payload: availableTimes});
-    }
-
     setFormData({
       ...formData,
       [name]:value
@@ -24,8 +21,11 @@ function ReservationsForm({availableTimes, dispatchAvailableTimes}) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    console.log("Form submitted", formData);
   };
+
+  const currentDate = new Date().toISOString().split("T")[0];
+  const options = availableTimes.map(time => <option key={time}>{time}</option>)
 
   return(
    <form onSubmit={handleSubmit}>
