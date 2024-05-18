@@ -30,8 +30,8 @@ function ReservationsForm({availableTimes, dispatchAvailableTimes, submitForm}) 
   return(
    <form onSubmit={handleSubmit}>
     <label htmlFor="res-date">Choose Date</label>
-    <input type="date" id="res-date" name="date" value={formData.date} onChange={handleChange}></input>
-    <label htmlFor="rst-time">Choose time</label>
+    <input type="date" required id="res-date" name="date" value={formData.date} onChange={handleChange}></input>
+    <label htmlFor="res-time">Choose time</label>
     <select id="res-time" name="time" value={formData.time} onChange={handleChange}>
       {availableTimes.map((timeOption, index) => (
         <option key={index}>{timeOption}</option>
