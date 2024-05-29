@@ -189,8 +189,7 @@ article a:hover {
 
 .testimonials-max-width {
   max-width: 950px;
-  margin: 0 auto;
-  padding: 0 20px;
+  padding-block: 2em;
 }
 
 .testimonials {
@@ -200,12 +199,11 @@ article a:hover {
 }
 
 .testimonials-grid-container {
-  display: grid;
-  grid-template-columns: repeat(4,5fr);
-  grid-template-rows: repeat(1, 500px);
-  grid-gap: 20px;
-  justify-items: center;
-  align-items: center;
+  display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	align-items: stretch;
+	justify-content: center;
 }
 
 .grid-item {
@@ -216,6 +214,8 @@ article a:hover {
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
+	border-radius: 16px;
+	position: relative;
 }
 
 .grid-pic-name {
@@ -231,6 +231,45 @@ article a:hover {
   border-radius: 50%;
   margin-right: 10px;
 }
+
+.testimonials-parent {
+	padding-block: 2em;
+}
+
+.testimonials-title {
+	font-family: 'Markazi Text', serif;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 43px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #333333;
+}
+
+.testimonials {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	align-items: stretch;
+	justify-content: center;
+}
+
+.testimonial {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding-bottom: 1em;
+}
+
+
+.reviewer-img {
+	width: 100px;
+  border-radius: 50%;
+  align-items: center;
+  margin: auto;
+}
+
 
 /* Chicago */
 
@@ -276,3 +315,11 @@ article a:hover {
 }
 
 
+.confirmed-booking {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	padding-block: 2em;
+}

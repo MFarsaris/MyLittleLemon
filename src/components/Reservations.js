@@ -24,7 +24,7 @@ export default function Book() {
     const isSubmitted = submitAPI(formData);
 
     if (isSubmitted) {
-      navigate("/confirmed");
+      navigate("/Confirmed");
     }
   }
 

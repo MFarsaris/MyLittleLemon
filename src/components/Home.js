@@ -5,6 +5,7 @@ import Specials from "./specials";
 import Footer from "./footer";
 import CustomersSay from "./CustomersSay";
 import Chicago from "./Chicago";
+import Testimonials from "./CustomersSay";
 
 export default function Home() {
 
